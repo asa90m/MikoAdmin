@@ -3,6 +3,12 @@
     <application
         android:label="MikoAdmin"
         android:icon="@mipmap/ic_launcher">
+        
+        <!-- أضف هذا الجزء هنا -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
