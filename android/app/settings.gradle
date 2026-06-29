@@ -1,1 +1,9 @@
 
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = "MikoAdmin"
+include(":app")
